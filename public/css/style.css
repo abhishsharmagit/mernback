@@ -1,0 +1,103 @@
+body {
+	overflow-x: hidden; /*--right gutter fix--*/
+}
+.navbar{
+  text-transform: uppercase;
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+.caption h2 {
+  font-size: 60px;
+  color: #E9ECEF;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  font-weight: 100;
+}
+.btn{
+  border-radius: 0;
+  border-width: 3px;
+  text-transform: uppercase;
+}
+.jumbotron h2{
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 100;
+}
+.padding{
+  padding: 20px;
+}
+img.portfolio{
+max-width: 100%;
+}
+.no-padding .col-md-6{
+padding: 0;
+}
+#portfolio h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 100;
+}
+#team h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 100;
+}
+.footer{
+  background-color: rgb(209, 208, 208);
+  padding: 20px;
+}
+.footer h2{
+  text-transform: uppercase;
+  font-size: 50px;
+font-weight: 100;
+}
+.front {
+  height: 100vh;
+}
+.button{
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.form{
+  width: 500px;
+  margin-left: 400px;
+}
+.text {
+  padding-top: 170px;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+  color: rgb(92, 172, 92);
+  text-shadow: 5px 4px 9px rgba(0, 0, 0, 2.6);
+}
+.launchimg {
+  width: 600px;
+  padding-top: 200px;
+  margin-top: 200px;
+}
+/*--- iOS Landing Page Fix --*/
+@media screen and (min-width: 480px){
+  .text {
+    padding-top: 170px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+  }
+  .launchimg {
+    width: 500px;
+    padding-top: 30px;
+  }
+}

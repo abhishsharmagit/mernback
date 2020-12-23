@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/style.css">
+ <title>Document</title>
+</head>
+ <body data-spy = "scroll" data-target = "#menu">
+	<!-- start home -->
+	<div id="home">
+		<!-- navigatiion -->
+{{>navbar}}
+<!-- start landing page -->
+<div class="container-fluid">
+<div class="row front">
+	<div class="col-md-6 order-1">
+		<h1 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+		<button class="btn btn-outline-success button" >Get Started</button>
+	</div>
+	<div class="col-md-6 order-2">
+		<figure>
+			<img src="images/launch.svg" alt="launch" class="launchimg"/>
+		</figure>
+	</div>
+</div>
+</div>
+
+	<!-- end home -->
+<!-- start about -->
+{{>about}}
+<!-- about end -->
+<!-- portfolio strt -->
+{{>portfolio}}
+<!-- portfoli end -->
+<!-- team start -->
+{{>team}}
+<!-- end team -->
+<!-- start contact -->
+{{>contact}}
+
+ <script src="../jq/jquery.js" type="text/javascript"></script>
+ <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
